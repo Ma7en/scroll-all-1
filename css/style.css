@@ -1,0 +1,286 @@
+
+
+/* font google */
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start scroll all */
+.scroll {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.scroll > .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 1 */
+
+.scroll-1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.scroll-1 h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.scroll-1 .box {
+    background-color: steelblue;
+    color: #fff;
+    width: 350px;
+    height: 180px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .5);
+    transition: var(--main-transition) ease;
+    transform: translateX(300%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-transform: translateX(300%);
+    -moz-transform: translateX(300%);
+    -ms-transform: translateX(300%);
+    -o-transform: translateX(300%);
+    -webkit-transition: var(--main-transition) ease;
+    -moz-transition: var(--main-transition) ease;
+    -ms-transition: var(--main-transition) ease;
+    -o-transition: var(--main-transition) ease;
+}
+
+.scroll-1 .box:nth-of-type(even) {
+    transition: var(--main-transition);
+    transform: translateX(-300%);
+    -webkit-transform: translateX(-300%);
+    -moz-transform: translateX(-300%);
+    -ms-transform: translateX(-300%);
+    -o-transform: translateX(-300%);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.scroll-1 .box.show {
+    transition: var(--main-transition);
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+
+
+
+/* end scroll 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 2 */
+
+
+
+/* end scroll 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 3 */
+
+
+
+/* end scroll 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 4 */
+
+
+
+/* end scroll 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 5 */
+
+
+
+/* end scroll 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 6 */
+
+
+
+/* end scroll 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 7 */
+
+
+
+/* end scroll 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 8 */
+
+
+
+/* end scroll 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 9 */
+
+
+
+/* end scroll 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 10 */
+
+
+
+/* end scroll 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start scroll 11 */
+
+
+
+/* end scroll 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
